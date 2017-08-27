@@ -201,7 +201,7 @@ namespace fraction
 
 	bigint Fraction::as_int() const
 	{
-		return N * D;
+		return N / D;
 	}
 
 	double Fraction::as_real() const
